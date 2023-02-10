@@ -1,0 +1,58 @@
+.app-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-container-header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid;
+  gap: 10px;
+  background: linear-gradient(
+    0deg,
+    rgba(214, 213, 213, 0.565) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  margin-bottom: 10px;
+}
+.app-container-header-top {
+  height: 50%;
+  width: 100%;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-container-header-bottom {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.app-container-main {
+  width: 100vw;
+  min-height: 80vh;
+  z-index: 0;
+}
+.react-multiple-carousel__arrow {
+  border: 2px solid white !important;
+  font-weight: 1000;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.533);
+}
+
+@media(max-width: 500px){
+  .app-container-header h1{
+    font-size: larger;
+  }
+}
